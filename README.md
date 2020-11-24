@@ -1,4 +1,4 @@
 # Dataset Exploration
 
 * Wisconsin breast cancer data
-* Titanic
+* Titanic [on titanic branch] 
