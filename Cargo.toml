@@ -1,0 +1,27 @@
+[package]
+name = "dataset-exploration"
+version = "0.0.1"
+edition = "2018"
+documentation = ""
+keywords = ["Rust", "Machine Learning"]
+license = "MPL-2.0"
+readme = "README.md"
+repository = "https://github.com/rustbrother-wolf/dataset-exploration"
+description = "Experiments in Machine Learning"
+
+
+[dependencies]
+nn = "0.1.6"
+csv = "1.1.4"
+ndarray = "0.13.1"
+
+[[bin]]
+name = "nn"
+path = "src/examples/nn.rs"
+
+[[bin]]
+name = "mnist-digits"
+path = "src/mnist-digits/mnist-digits.rs"
+
+[profile.release]
+opt-level = 3
